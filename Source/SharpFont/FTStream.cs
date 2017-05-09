@@ -55,7 +55,7 @@ namespace SharpFont
 	/// <summary>
 	/// A handle to an input stream.
 	/// </summary>
-	public sealed class FTStream : NativeObject
+	public sealed class FTStream
 	{
 		#region Fields
 

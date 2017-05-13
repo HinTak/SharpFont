@@ -48,6 +48,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)FTUnitVector.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)FTVector26Dot6.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GlyphToScriptMapProperty.cs" />
+    <Compile Include="ICustomStreamAccessor.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IncreaseXHeightProperty.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Internal\BitmapGlyphRec.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Internal\BitmapRec.cs" />
@@ -169,6 +170,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)SizeRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SizeRequestType.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Span.cs" />
+    <Compile Include="StreamAccessor.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)FTStream.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)StyleFlags.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SubGlyph.cs" />

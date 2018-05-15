@@ -838,6 +838,14 @@ namespace SharpFont
 		/// </remarks>
 		public object Tag { get; set; }
 
+        private IntPtr pReference
+        {
+            get
+            {
+				return base.Reference;
+            }
+        }
+
 		internal override IntPtr Reference
 		{
 			get
